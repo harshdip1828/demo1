@@ -1,0 +1,20 @@
+
+-----------------------GIT cmds---------------------------
+
+git --version -> checking version of git
+git congig --global user.name "Harshdip" -> setting name 
+git config --global user.name -> checking name added
+git config --global user.email "harshdip1804@gmail.com" -> setting email
+git config --global user.email -> checking email added
+git config --global --edit -> here also we edited name and email
+git init -> creates git respositery
+git status -> showing all changes 
+git add <file name > -> it goes to staging area *means holds the changes*
+git add . -> all files go to staging area
+git commit -m "msg" -> save
+git log -> showing all commits with detils how much we commited showing count
+git checkout <branch name>/hash code -> this cmd directly go to perticuler branch
+git branch -> by default it shows master branch
+git branch <branch name> -> it creates new branch
+git checkout -b <brach name> -> this cmd creates and go directly to that branch
+git merge <branch name> -> combine branches
